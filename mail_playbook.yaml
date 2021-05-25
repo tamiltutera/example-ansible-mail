@@ -1,0 +1,13 @@
+- hosts:
+    - localhost
+  tasks:
+    - name: Sending an e-mail using Gmail SMTP servers
+      mail:
+        host: smtp.gmail.com
+        port: 587
+        username: "investmania2021@gmail.com"
+        password: "9791271512"
+        to: "tamiltutera@gmail.com"
+        subject: "Ansible Report"
+        body: System [[ ansible_hostname ]] has been successfully provisioned.
+      delegate_to: localhost
