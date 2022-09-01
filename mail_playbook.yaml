@@ -6,7 +6,7 @@
         host: smtp.gmail.com
         port: 587
         username: "investmania2021@gmail.com"
-        password: "9791271512"
+        password: "979****"
         to: "tamiltutera@gmail.com"
         subject: "Ansible Report"
         body: System [[ ansible_hostname ]] has been successfully provisioned.
